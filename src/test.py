@@ -2,7 +2,7 @@ import argparse
 import os
 import torch
 import numpy as np
-from transformers import *
+from transformers import AutoTokenizer
 
 from src.data.Batcher import Batcher
 from src.utils.Config import Config

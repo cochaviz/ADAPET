@@ -6,7 +6,7 @@ import torch
 import torch.nn as nn
 import re
 import numpy as np
-from transformers import *
+from transformers import AutoModelForMaskedLM, AlbertConfig, AlbertForMaskedLM
 from src.utils.util import device
 
 
