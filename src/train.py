@@ -3,7 +3,7 @@ import os
 import numpy as np
 import argparse
 import logging
-from transformers import *
+from transformers import AutoTokenizer
 
 from src.eval.eval_model import dev_eval
 from src.adapet import adapet
